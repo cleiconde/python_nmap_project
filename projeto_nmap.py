@@ -11,7 +11,8 @@ ip = input('\nEntre com o IP a ser varrido: ')
 
 while True:
     
-    menu = int(input('\nEscolha o tipo de varredura a ser realizado:\n\t<1> Varredura do tipo SYN\n\t<2> Varredura do tipo UDP\n\t<3> Varredura do tipo intenso\n\t<4> Mudar o IP\n\t<0> Sair\n\tDigite a opção escolhida: '))
+    menu = int(input('\nEscolha o tipo de varredura a ser realizado:\n\t<1> Varredura do tipo SYN\n\t<2> Varredura do tipo UDP'
+                    '\n\t<3> Varredura do tipo intenso\n\t<4> Mudar o IP\n\t<0> Sair\n\tDigite a opção escolhida: '))
 
     if menu == 1:
         print('\nVersão no NMAP: ', scanner.nmap_version())
